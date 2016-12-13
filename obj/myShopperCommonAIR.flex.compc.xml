@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+  <output>D:\web\hkshopper\site\development\swf\lib\myShopperCommonAIR.swc</output>
+  <use-network>true</use-network>
+  <warnings>true</warnings>
+  <benchmark>false</benchmark>
+  <compiler>
+    <accessible>false</accessible>
+    <allow-source-path-overlap>false</allow-source-path-overlap>
+    <optimize>true</optimize>
+    <strict>true</strict>
+    <es>false</es>
+    <show-actionscript-warnings>true</show-actionscript-warnings>
+    <show-binding-warnings>true</show-binding-warnings>
+    <show-unused-type-selector-warnings>true</show-unused-type-selector-warnings>
+    <use-resource-bundle-metadata>true</use-resource-bundle-metadata>
+    <verbose-stacktraces>false</verbose-stacktraces>
+    <source-path>
+      <path-element>d:\web\hkshopper\site\development\swf\code\commonairsource\src</path-element>
+      <path-element>d:\web\hkshopper\site\development\swf\lib</path-element>
+    </source-path>
+    <external-library-path append="true">
+      <path-element>d:\web\hkshopper\site\development\swf\lib\myshoppercommon.swc</path-element>
+    </external-library-path>
+  </compiler>
+  <include-classes>
+    <class>myShopper.common.air.data.Database</class>
+    <class>myShopper.common.air.data.SalesDatabase</class>
+    <class>myShopper.common.air.net.LocalDataService</class>
+    <class>myShopper.common.air.net.LocalSalesDataService</class>
+    <class>myShopper.common.air.net.LocalSalesDataServiceRequest</class>
+    <class>myShopper.common.air.net.PrivateClass</class>
+  </include-classes>
+</flex-config>
